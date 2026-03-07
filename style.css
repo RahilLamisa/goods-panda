@@ -1,0 +1,149 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   margin-left: 1%;
+   margin-right: 1%;
+   margin-top: 0.5%;
+   margin-bottom: 0.5%;
+   font-family: "Poppins", sans-serif;
+}
+
+#nav-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#hero-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #FEEAE9;
+    padding: 1.5%;
+    border-radius: 20px;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.btn-1{
+    background-color: #FF1365;
+    border-radius: 6px;
+    color: white;
+    padding: 7px;
+    border: 0;
+    margin-top: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.btn-1:hover{
+    background-color: white;
+    border: 1px solid #FF1365;
+    color: black;
+}
+
+.btn-2{
+    background-color: black;
+    border-radius: 6px;
+    color: white;
+    padding: 7px;
+    border: 0;
+    margin-top: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    box-shadow: 3px;
+    margin-top: 10px;
+}
+.btn-2:hover{
+    background-color: white;
+    border: 1px solid black;
+    color: black;
+}
+
+#categories-container{
+    margin-top: 4%;
+}
+#categories{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.card-1{
+    display: flex;
+    background-color: orange;
+    border-radius: 8px;
+    color: white;
+    align-items: center;
+    justify-content: space-between;
+    font-size: x-large;
+    padding: 10px;
+    width: 33.33%;
+}
+.card-2{
+    display: flex;
+    background-color: #FF1365;
+    border-radius: 8px;
+    color: white;
+    align-items: center;
+    justify-content: space-between;
+    font-size: x-large;
+    padding: 10px;
+    width: 33.33%;
+}
+.card-3{
+    display: flex;
+    background-color: blue;
+    border-radius: 8px;
+    color: white;
+    align-items: center;
+    justify-content: space-between;
+    font-size: x-large;
+    padding: 10px;
+    width: 33.33%;
+}
+
+#shoes-container{
+    margin-top: 4%;
+}
+
+.shoe{
+    border: 2px solid #929292;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+    box-shadow: 6px 9px #e7e5e5;
+}
+
+#shoes{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+#bags-container{
+    margin-top: 4%;
+}
+
+.bag{
+    border: 2px solid #929292;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+    box-shadow: 6px 9px #e7e5e5;
+}
+
+#bags{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 0;
+    margin-right: 0;
+}
